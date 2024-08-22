@@ -5,8 +5,8 @@
 }
 
 body{
-    background-image: url(../Img/fondo.jpeg); 
-    background-repeat: no-repeat; 
+    background-image: url(../Img/fondoo.jpeg); 
+    background-repeat: no-repeat;
     background-size: cover; 
 }
 
@@ -19,22 +19,20 @@ body{
     text-shadow: 0px 0px 5px rgb(183, 44, 44); 
 }
 
-.form-content{
+.form-content {
     width: 100%;
     max-width: 350px;
-    background-color: #7c8087;
+    background-color: rgba(54, 103, 100, 0.3); /* Cambia 0.5 a la transparencia que desees */
     padding: 50px 60px 70px;
     border-radius: 25px;
-
 }
-
 
 
 .form-content h1{
     border-radius: 25px;
     font-size: 30px;
     margin-bottom: 60px;
-    color: #ffffff;
+    color: #dfb472;
     position: relative;
 }
 
@@ -43,7 +41,7 @@ body{
     width: 30px;
     height: 4px;
     border-radius: 3px;
-    background: #00c8ff;
+    background: #ff9100;
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -62,7 +60,7 @@ body{
 
 .input-field i{
     margin-left: 6px;
-    color: #02b9fc;
+    color: #d8af4e;
 }
 
 form p{
@@ -72,10 +70,10 @@ form p{
 }
 
 form p a {
-    text-shadow: 0px 0px 5px rgb(214, 31, 31); 
+    text-shadow: 0px 0px 5px rgb(70, 43, 43); 
     font-weight: bolder;
     box-shadow: impact,haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:#6acdd8;
+    color:#d88d6a;
     margin-left: 10px;
 }
 
