@@ -63,6 +63,23 @@ body{
     color: #d8af4e;
 }
 
+.input-field {
+    display: flex;
+    align-items: center;
+}
+
+#togglePassword {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#togglePassword:focus {
+    outline: none;
+}
+
+
 form p{
     color: #ffff;
     text-align: left;
