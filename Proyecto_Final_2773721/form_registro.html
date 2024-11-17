@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FISH-NEX</title>
+    <link rel="stylesheet" href="css/styl.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Registro de Procedimientos </h2>
+        <form>
+            <section class="form-gruop">
+                <label for="nombreProcedimiento">Nombre del Procedimiento:</label>
+                <input type="text" class="form-control" id="nombreProcedimiento" placeholder="Ingrese el nombre del procedimiento">
+                
+                <label for="tipoProcedimiento">Tipo de Procedimiento:</label>
+                <input type="text" class="form-control" id="tipoProcedimiento" placeholder="Ingrese el tipo de procedimiento">
+                
+                <label for="fechaProcedimiento">Fecha del Procedimiento:</label>
+                <input type="date" class="form-control" id="fechaProcedimiento">
+                
+                <label for="responsable">Responsable:</label>
+                <input type="text" class="form-control" id="responsable" placeholder="Ingrese el nombre del responsable">
+                
+                <label for="estanqueUnidad">Estanque o Unidad de Producción:</label>
+                <input type="text" class="form-control" id="estanqueUnidad" placeholder="Ingrese el estanque o unidad de producción">
+                
+                <label for="descripcionProcedimiento">Descripción del Procedimiento:</label>
+                <textarea class="form-control" id="descripcionProcedimiento" rows="3" placeholder="Ingrese la descripción del procedimiento"></textarea>
+                
+                <label for="resultados">Resultados:</label>
+                <textarea class="form-control" id="resultados" rows="3" placeholder="Ingrese los resultados del procedimiento"></textarea>
+                
+                <label for="observaciones">Observaciones:</label>
+                <textarea class="form-control" id="observaciones" rows="3" placeholder="Ingrese observaciones adicionales"></textarea>
+                
+                <button type="submit" class="btn btn-success mr-2">Registrar Procedimiento</button>
+                <button type="reset" class="btn btn-danger">Cancelar</button>
+            </section>
+        </form>
+        
+        <script src="MVC_Registro_Actividades.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        
+    </div>
+
+</body>
+</html>

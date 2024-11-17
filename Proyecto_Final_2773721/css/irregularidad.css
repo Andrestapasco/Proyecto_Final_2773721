@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../Img/fondo.jpeg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hace que el contenedor ocupe toda la altura de la vista */
+}
+
+.tarjeta {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(107, 93, 93);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 .logo {
+    width: 40px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+
+
